@@ -1,24 +1,24 @@
-|||||||||||||------------------INNER JOIN --------------------||||||||||||||
+-- |||||||||||||------------------INNER JOIN --------------------||||||||||||||
 
 -- " * " Means "All"
 
 SELECT * 
 -- FROM helps you select the database you want to extract the information from
   FROM citiesdb
-  -- We will create an inner join to the database "countriesdb"
+-- We will create an inner join to the database "countriesdb"
   INNER JOIN countriesdb
-    -- to match country codes, we use "ON" and choose our "key"
+-- to match country codes, we use "ON" and choose our "key"
     ON citiesdb.country_code = countriesdb.code;
 
-##-- What are we doing with text: --##
---We request to select all the information from the database "citiesdb", and we want to intersect our data with the database "countriesdb"
+-- ##-- What are we doing explained with text: --##
+-- We request to select all the information from the database "citiesdb", and we want to intersect our data with the database "countriesdb"
 -- we will do so on "country_code" from citiesdb database and "code" from countriesdb database
 -- The result will be 1 database with records from the two tables whenever there are matching values in country_code and code
 -- the result will only show pairs of cities and countries where there is a matching country_code and code between the two tables.
 ---------------------------------------------------------------
 
---Creating an Alias
--- To create an Alias we use "AS"
+--Creating an Alias: To create an Alias we use "AS"
+
 
 SELECT 
   city.name AS city,
@@ -27,3 +27,28 @@ SELECT
 FROM citiesdb AS city
   INNER JOIN countriesdb AS country
     ON city.country_code = country.code;
+
+-- ##-- What are we doing explained with text: --##
+-- We are selecting city.name, country.name and region from our database "citiesdb" aliased as "city" and our database "countriesdb" aliased 
+-- as "country", remember: this temporary alias is only for the duration of this query.
+-- We request an INNER JOIN between these 2 databases ON country_code and code for city and country respectively.
+-- RESULT: 
+-- The output will be a combined table with the columns: city, country, and region. The final table will only show matched pairs of cities and 
+-- countries based on the country_code and code join condition.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
