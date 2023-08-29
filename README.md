@@ -1,8 +1,9 @@
 # SQL-Datacamp-projects
-## The goal of this repository is to show the SQL projects reviewed on "SQL for Joining Data" course by Dr. Chester Ismay from Datacamp
+## The goal of this repository is to showcase my learning from the SQL excercises reviewed on "SQL for Joining Data" course by Dr. Chester Ismay from Datacamp
 ## Please refer to this course on https://app.datacamp.com/learn/courses/sql-for-joining-data
-### This course focuses on PostgreSQL and can be applied to different forms of SQL as well
 #### No copyright intended, just looking to showcase and explain what I learned on this course
+### This course focuses on PostgreSQL and can be applied to different forms of SQL as well
+
 
 I worked with databases that showed countries information including: Population, economics and geographic data.
 We will use the different Joins to understand how we can combine databases.
