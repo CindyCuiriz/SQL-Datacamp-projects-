@@ -4,3 +4,16 @@ SELECT *
   INNER JOIN countriesdb
     -- to match country codes, we use "ON" and choose our "key"
     ON citiesdb.country_code = countries.code;
+
+---------------------------------------------------------------
+
+--Creating an Alias
+-- To create an Alias we use "AS"
+
+SELECT 
+  city.name AS city,
+  country.name AS country,
+  region
+FROM citiesdb AS city
+  INNER JOIN countriesdb AS country
+    ON city.country_code = country.code;
