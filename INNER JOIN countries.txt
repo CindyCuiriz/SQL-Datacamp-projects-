@@ -1,6 +1,6 @@
 SELECT * 
-FROM cities
-  -- Inner join to countries
-  INNER JOIN countries
-    -- Match on the country codes
-    ON cities.country_code = countries.code;
+  FROM citiesdb
+  -- We will create an inner join to the database "countriesdb"
+  INNER JOIN countriesdb
+    -- to match country codes, we use "ON" and choose our "key"
+    ON citiesdb.country_code = countries.code;
