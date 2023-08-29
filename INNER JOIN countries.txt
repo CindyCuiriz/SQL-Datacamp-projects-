@@ -1,3 +1,6 @@
+|||||||||||||------------------INNER JOIN --------------------||||||||||||||
+
+-- " * " Means "All"
 SELECT * 
   FROM citiesdb
   -- We will create an inner join to the database "countriesdb"
