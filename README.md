@@ -4,8 +4,9 @@
 ### This course focuses on PostgreSQL and can be applied to different forms of SQL as well
 #### No copyright intended, just looking to showcase and explain what I learned on this course
 
-Working with the countries database containing information about the most populous world cities as well as country-level 
-economic data, population data, and geographic data. We will use the different Joins to understand how we can create relationships with "Join" functions on sql 
+I worked with databases that showed countries information including: Population, economics and geographic data.
+We will use the different Joins to understand how we can combine databases.
+
 
 | Join      | Description |
 | ----------- | ----------- |
