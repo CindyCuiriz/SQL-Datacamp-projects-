@@ -3,7 +3,7 @@
 ### This course focuses on PostgreSQL and can be applied to different forms of SQL as well
 
 Working with the countries database containing information about the most populous world cities as well as country-level 
-economic data, population data, and geographic data. This countries database also contains information on languages spoken in each country.
+economic data, population data, and geographic data. We will use the different Joins to understand how we can create relationships with "Join" functions on sql 
 
 | Join      | Description |
 | ----------- | ----------- |
